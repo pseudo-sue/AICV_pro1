@@ -1,7 +1,7 @@
 __include__: [
-  '../dataset/kitti_detection.yml',
+  '../dataset/kitti_detection_for_eval.yml',
   '../runtime.yml',
-  './include/dataloader.yml',
+  './include/dataloader_custom_T4.yml',
   './include/optimizer.yml',
   './include/rtdetrv2_r50vd_custom.yml',
 ]
@@ -29,7 +29,7 @@ RTDETRTransformerv2:
   num_layers: 3
 
 
-epoches: 50
+epoches: 2
 
 optimizer:
   type: AdamW
