@@ -9,8 +9,6 @@ __include__: [
 
 output_dir: ./output/rtdetrv2_kitti
 
-tuning: ./configs/rtdetrv2/weight/rtdetrv2_r18vd_120e_coco.pth # 추가: Coco dataset에 맞게 Pretrained 된 모델 사용
-
 PResNet:
   depth: 18
   freeze_at: -1
