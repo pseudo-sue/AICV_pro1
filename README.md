@@ -1,4 +1,3 @@
-
 # 멋쟁이사자처럼 AI CV BOOTCAMP Plus 2기 Project1
 
 ## 개요
@@ -29,8 +28,9 @@ kittit 데이터를 사용하였습니다.
 
 ## 모델 수정사항
 
-이부분은 이따가
+* **Vim 인코더 적용**
+* **UpSampling 적용**
 
 ## 코드
 
-여기에 링크
+[colab 코드](./COLAB_TOOL/README.md)
