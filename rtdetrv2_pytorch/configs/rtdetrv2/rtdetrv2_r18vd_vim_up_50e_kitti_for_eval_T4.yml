@@ -9,7 +9,7 @@ __include__: [
 
 output_dir: ./output/rtdetrv2_kitti
 
-tuning: https://github.com/lyuwenyu/storage/releases/download/v0.1/rtdetrv2_r18vd_120e_coco_rerun_48.1.pth # 추가: Coco dataset에 맞게 Pretrained 된 모델 사용
+tuning: ./weight/rtdetrv2_r18vd_120e_coco.pth # 추가: Coco dataset에 맞게 Pretrained 된 모델 사용
 
 PResNet:
   depth: 18
