@@ -1,5 +1,9 @@
 # 멋쟁이사자처럼 AI CV BOOTCAMP Plus 2기 Project1 코드
 
+## 코드
+
+[ipynb](./RT-DETRv2_with_vim_n_upsampling.ipynb)
+
 ## 사용법
 
 아래의 코드를 colab에 업로드해서 활용하시면 됩니다.
