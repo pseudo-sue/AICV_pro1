@@ -99,7 +99,7 @@ def main():
 
         boxes = det["boxes"].cpu()     # [N,4] xyxy
         scores = det["scores"].cpu()   # [N]
-        labels = det["labels"].cpu()   # [N]
+        labels = det["labels"].cpu()-1   # [N]
 
         # 클래스 이름 결정
         names = class_names
