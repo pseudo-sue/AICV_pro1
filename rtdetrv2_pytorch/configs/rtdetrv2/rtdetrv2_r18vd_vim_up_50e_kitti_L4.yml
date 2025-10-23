@@ -9,6 +9,8 @@ __include__: [
 
 output_dir: ./output/rtdetrv2_kitti
 
+tuning: https://github.com/lyuwenyu/storage/releases/download/v0.1/rtdetrv2_r18vd_120e_coco.pth # 추가: Coco dataset에 맞게 Pretrained 된 모델 사용
+
 PResNet:
   depth: 18
   freeze_at: -1
@@ -43,6 +45,6 @@ train_dataloader:
   dataset:
     transforms:
       policy:
-        epoch: 1
+        epoch: 47
   collate_fn:
     scales: ~
